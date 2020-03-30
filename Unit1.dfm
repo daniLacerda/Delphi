@@ -1,9 +1,10 @@
 object Form1: TForm1
   Left = 0
   Top = 0
+  ActiveControl = txtNome
   Caption = 'Form1'
-  ClientHeight = 161
-  ClientWidth = 302
+  ClientHeight = 312
+  ClientWidth = 443
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,94 +15,85 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Panel1: TPanel
-    Left = 0
-    Top = 0
-    Width = 305
-    Height = 161
-    Color = clGray
-    ParentBackground = False
+    Left = 24
+    Top = 16
+    Width = 393
+    Height = 89
     TabOrder = 0
     object Label1: TLabel
-      Left = 174
-      Top = 35
-      Width = 8
+      Left = 63
+      Top = 19
+      Width = 31
       Height = 13
-      Caption = '='
+      Caption = 'Nome:'
     end
     object Label2: TLabel
-      Left = 14
-      Top = 140
-      Width = 218
+      Left = 32
+      Top = 59
+      Width = 59
       Height = 13
-      Caption = 'Obs: Um n'#250'mero n'#227'o pode ser divis'#237'vel por 0.'
-      Color = clSilver
-      ParentColor = False
+      Caption = 'Nascimento:'
     end
-    object val1: TEdit
-      Left = 16
-      Top = 32
-      Width = 73
+    object txtNome: TEdit
+      Left = 100
+      Top = 16
+      Width = 261
       Height = 21
       TabOrder = 0
     end
-    object val2: TEdit
-      Left = 95
-      Top = 32
-      Width = 73
+    object maskData: TMaskEdit
+      Left = 100
+      Top = 56
+      Width = 61
       Height = 21
+      EditMask = '99/99/9999'
+      MaxLength = 10
       TabOrder = 1
+      Text = '  /  /    '
     end
-    object result: TEdit
-      Left = 192
-      Top = 32
-      Width = 93
-      Height = 21
+    object Button1: TButton
+      Left = 186
+      Top = 54
+      Width = 75
+      Height = 25
+      Caption = 'Cadastrar'
       TabOrder = 2
+      OnClick = Button1Click
     end
-    object soma: TButton
-      Left = 14
-      Top = 69
-      Width = 51
+    object btLimpar: TButton
+      Left = 283
+      Top = 54
+      Width = 75
       Height = 25
-      Caption = '+'
+      Caption = 'Limpar'
       TabOrder = 3
-      OnClick = somaClick
+      OnClick = btLimparClick
     end
-    object sub: TButton
-      Left = 71
-      Top = 69
-      Width = 49
-      Height = 25
-      Caption = '-'
-      TabOrder = 4
-      OnClick = subClick
+  end
+  object Panel2: TPanel
+    Left = 24
+    Top = 120
+    Width = 393
+    Height = 177
+    Caption = 'Panel2'
+    TabOrder = 1
+    object Nome: TMemo
+      Left = 16
+      Top = 16
+      Width = 209
+      Height = 145
+      Lines.Strings = (
+        'Nome')
+      TabOrder = 0
     end
-    object divisao: TButton
-      Left = 126
-      Top = 69
-      Width = 49
-      Height = 25
-      Caption = '/'
-      TabOrder = 5
-      OnClick = divisaoClick
-    end
-    object multiplica: TButton
-      Left = 181
-      Top = 69
-      Width = 49
-      Height = 25
-      Caption = '*'
-      TabOrder = 6
-      OnClick = multiplicaClick
-    end
-    object rest: TButton
-      Left = 236
-      Top = 69
-      Width = 49
-      Height = 25
-      Caption = 'Resto'
-      TabOrder = 7
-      OnClick = restClick
+    object Nascimento: TMemo
+      Left = 231
+      Top = 16
+      Width = 146
+      Height = 145
+      Lines.Strings = (
+        'Nascimento')
+      TabOrder = 1
     end
   end
 end
