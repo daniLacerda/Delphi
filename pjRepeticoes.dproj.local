@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/03/31 09:31:45.000.816,=C:\Users\Estil\Desktop\Projetos-Delphi\Unit1.pas</Transaction>
+    <Transaction>2020/03/31 10:22:24.000.067,=C:\Users\Estil\Desktop\Projetos-Delphi\Unit1.pas</Transaction>
+    <Transaction>2020/03/31 10:24:03.000.409,C:\Users\Estil\Desktop\Projetos-Delphi\Teste\FormPrincipal.pas=C:\Users\Estil\Desktop\Projetos-Delphi\Unit1.pas</Transaction>
+    <Transaction>2020/03/31 10:24:03.000.409,C:\Users\Estil\Desktop\Projetos-Delphi\Teste\FormPrincipal.dfm=C:\Users\Estil\Desktop\Projetos-Delphi\Unit1.dfm</Transaction>
+    <Transaction>2020/03/31 10:24:15.000.675,C:\Users\Estil\Desktop\Projetos-Delphi\Teste\frmPrincipal.dproj=C:\Users\Estil\Desktop\Projetos-Delphi\Project1.dproj</Transaction>
+    <Transaction>2020/03/31 14:25:36.000.548,C:\Users\Estil\Desktop\Repetições\Repetições\FormPrincipal.pas=C:\Users\Estil\Desktop\Repetições\Repetições\FormRepeticoes.pas</Transaction>
+    <Transaction>2020/03/31 14:25:36.000.548,C:\Users\Estil\Desktop\Repetições\Repetições\FormPrincipal.dfm=C:\Users\Estil\Desktop\Repetições\Repetições\FormRepeticoes.dfm</Transaction>
+    <Transaction>2020/03/31 16:23:40.000.675,C:\Users\Estil\Desktop\Repetições\Repetições\FormRepeticoes.dfm=C:\Users\Estil\Desktop\Repetições\Repetições\Repeticoes.dfm</Transaction>
+    <Transaction>2020/03/31 16:23:40.000.675,C:\Users\Estil\Desktop\Repetições\Repetições\FormRepeticoes.pas=C:\Users\Estil\Desktop\Repetições\Repetições\Repeticoes.pas</Transaction>
+    <Transaction>2020/03/31 16:49:24.000.672,C:\Users\Estil\Desktop\Repetições\Repetições\frmPrincipal.dproj=C:\Users\Estil\Desktop\Repetições\Repetições\pjRepeticoes.dproj</Transaction>
+    <Transaction>2020/03/31 16:49:51.000.889,C:\Users\Estil\Desktop\Repetições\Repetições\Repeticoes.pas=C:\Users\Estil\Desktop\Repetições\Repetições\TESTE\Repeticoes.pas</Transaction>
+    <Transaction>2020/03/31 16:49:51.000.889,C:\Users\Estil\Desktop\Repetições\Repetições\Repeticoes.dfm=C:\Users\Estil\Desktop\Repetições\Repetições\TESTE\Repeticoes.dfm</Transaction>
+    <Transaction>2020/03/31 16:50:28.000.904,C:\Users\Estil\Desktop\Repetições\Repetições\pjRepeticoes.dproj=C:\Users\Estil\Desktop\Repetições\Repetições\TESTE\pjRepeticoes.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
